@@ -1,0 +1,27 @@
+.saas-documentation
+  thead
+    font-size 12px
+    font-weight 700
+    line-height 30px
+    color $black
+    border-bottom 1px solid #c2c2c2
+  table
+    overflow hidden
+    font-size 12px
+    width 90%
+    line-height 18px
+    color $black
+    th
+      color $primary
+    tbody
+      tr
+        &:nth-child(odd)
+          background $table_odd
+        &:nth-child(2n)
+          background $table_tn
+  #table_3_1 td + td + td + td, #table_3_2 td + td + td + td
+    word-break break-all
+  .table th, table td
+    border-bottom 1px solid $table_border
+    padding 5px
+    max-width 275px
